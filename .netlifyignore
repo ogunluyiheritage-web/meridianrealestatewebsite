@@ -1,0 +1,7 @@
+*.bak
+*.pre-3d.bak
+*.about.bak
+.git/
+.gitignore
+.vercelignore
+vercel.json

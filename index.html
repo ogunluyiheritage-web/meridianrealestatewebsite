@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Maridan is a private real-estate office for exceptional residences in the United States and internationally.">
+  <meta property="og:title" content="MARIDAN | Private Residences">
+  <meta property="og:description" content="A considered collection of exceptional residences.">
+  <title>MARIDAN | Private Residences</title>
+  <link rel="canonical" href="index.html">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="index.html">MARIDAN<sup>®</sup></a>
+    <button class="menu" type="button" aria-controls="site-navigation" aria-expanded="false">MENU</button>
+    <nav id="site-navigation">
+      <a class="active" href="index.html">Home</a>
+      <a href="properties.html">Properties</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Private enquiry</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero hero--walkthrough" data-hero-walkthrough aria-label="Alora House Architectural Walkthrough">
+      <div class="hero__walkthrough-stage">
+        <div class="hero__walkthrough-layers" aria-hidden="true">
+          <div class="hero__walkthrough-layer is-active" style="background-image:url('assets/properties/residence-01/view-01.jpg')"></div>
+          <div class="hero__walkthrough-layer" style="background-image:url('assets/properties/residence-01/view-02.jpg')"></div>
+          <div class="hero__walkthrough-layer" style="background-image:url('assets/properties/residence-01/view-03.jpg')"></div>
+          <div class="hero__walkthrough-layer" style="background-image:url('assets/properties/residence-01/view-04.jpg')"></div>
+        </div>
+        <div class="hero__copy">
+          <p class="eyebrow">MARIDAN / ALORA HOUSE · HUDSON VALLEY</p>
+          <h1 class="heading-assembly" data-assemble-heading>Architecture<br>made <em>personal.</em></h1>
+          <p class="lead">A private residential pavilion composed around reflection water, native landscape and generous northern light.</p>
+          <div class="hero__actions">
+            <a class="button" href="property.html?slug=alora-house">Explore residence</a>
+            <span class="hero__price">$18,500,000 · Hudson Valley, NY</span>
+          </div>
+        </div>
+        <p class="hero__details">
+          <span class="hero__view-indicator" data-hero-view-indicator>RESIDENCE STUDY / 01 · MAIN ARCHITECTURAL ELEVATION</span>
+          <span class="hero__scroll-prompt">SCROLL TO WALK THROUGH ↓</span>
+        </p>
+      </div>
+    </section>
+
+    <section class="intro reveal">
+      <div>
+        <p class="eyebrow">A private real-estate office</p>
+        <h2>We find the rare places that make <em>life feel larger.</em></h2>
+      </div>
+      <p>Maridan represents a small, thoughtful collection of homes defined by their architecture, atmosphere and enduring sense of place.</p>
+    </section>
+
+    <section class="story">
+      <div class="story__image image-cover reveal" style="background-image:url('assets/rooms/living-room.jpg')"></div>
+      <div class="story__copy reveal">
+        <p class="eyebrow">The Maridan point of view</p>
+        <h2>Form follows<br>the <em>feeling.</em></h2>
+        <p>We look beyond square metres and superficial finishes. A residence enters our collection because its light, proportion and material character create an experience worth returning to.</p>
+        <a class="text-link" href="about.html">Our philosophy</a>
+      </div>
+    </section>
+
+    <!-- Cinematic Property Walkthrough (scroll-driven real photography) -->
+    <section class="lifestyle-walkthrough lifestyle-walkthrough--cinematic is-loading" id="diurnal-study" aria-label="Cinematic residence walkthrough" aria-busy="true">
+      <div class="lifestyle-walkthrough__sticky">
+        <div class="lifestyle-cinematic" aria-hidden="true">
+          <div class="lifestyle-cinematic__scene is-active" data-cinematic-scene="0">
+            <img src="assets/properties/residence-11/hero.jpg" alt="" fetchpriority="high">
+          </div>
+          <div class="lifestyle-cinematic__scene" data-cinematic-scene="1">
+            <img src="assets/properties/residence-11/hero.jpg" alt="" loading="eager">
+          </div>
+          <div class="lifestyle-cinematic__scene" data-cinematic-scene="2">
+            <img src="assets/properties/residence-11/living.jpg" alt="" loading="eager">
+          </div>
+          <div class="lifestyle-cinematic__scene" data-cinematic-scene="3">
+            <img src="assets/properties/residence-11/kitchen.jpg" alt="" loading="eager">
+          </div>
+          <div class="lifestyle-cinematic__scene" data-cinematic-scene="4">
+            <img src="assets/properties/residence-11/primary-suite.jpg" alt="" loading="eager">
+          </div>
+          <div class="lifestyle-cinematic__scene lifestyle-cinematic__scene--evening" data-cinematic-scene="5">
+            <img src="assets/properties/residence-11/outdoor.jpg" alt="" loading="eager">
+          </div>
+          <div class="lifestyle-cinematic__veil"></div>
+        </div>
+
+        <div class="lifestyle-walkthrough__loading" role="status" aria-live="polite">
+          <span class="lifestyle-walkthrough__loading-indicator" aria-hidden="true"></span>
+          <span data-viewer-loading-label>Preparing the residence experience</span>
+        </div>
+
+        <div class="lifestyle-walkthrough__header">
+          <p class="eyebrow">Living, considered · Cinematic Study</p>
+          <h2 class="lifestyle-walkthrough__title">Morning through<br>to <em>after dark.</em></h2>
+        </div>
+
+        <div class="lifestyle-walkthrough__hud">
+          <div class="lifestyle-walkthrough__hud-main">
+            <div class="lifestyle-walkthrough__time-badge">
+              <span class="lifestyle-walkthrough__clock" data-diurnal-clock>07:15</span>
+              <span class="lifestyle-walkthrough__phase" data-diurnal-phase>FRONT EXTERIOR</span>
+            </div>
+            <p class="lifestyle-walkthrough__note" data-diurnal-note>
+              A cinematic approach to the residence, with the architecture framed like a private property film.
+            </p>
+          </div>
+
+          <div class="lifestyle-walkthrough__controls">
+            <div class="lifestyle-walkthrough__progress-track" aria-hidden="true">
+              <div class="lifestyle-walkthrough__progress-bar" data-diurnal-bar></div>
+            </div>
+            <div class="lifestyle-walkthrough__milestones" role="tablist" aria-label="Residence walkthrough milestones">
+              <button type="button" class="milestone is-active" data-milestone="0" role="tab" aria-selected="true">
+                <span class="milestone__dot"></span>
+                <span class="milestone__label">0% · EXTERIOR</span>
+              </button>
+              <button type="button" class="milestone" data-milestone="20" role="tab" aria-selected="false">
+                <span class="milestone__dot"></span>
+                <span class="milestone__label">20% · ENTRANCE</span>
+              </button>
+              <button type="button" class="milestone" data-milestone="40" role="tab" aria-selected="false">
+                <span class="milestone__dot"></span>
+                <span class="milestone__label">40% · LIVING</span>
+              </button>
+              <button type="button" class="milestone" data-milestone="60" role="tab" aria-selected="false">
+                <span class="milestone__dot"></span>
+                <span class="milestone__label">60% · KITCHEN</span>
+              </button>
+              <button type="button" class="milestone" data-milestone="80" role="tab" aria-selected="false">
+                <span class="milestone__dot"></span>
+                <span class="milestone__label">80% · BEDROOM</span>
+              </button>
+              <button type="button" class="milestone" data-milestone="100" role="tab" aria-selected="false">
+                <span class="milestone__dot"></span>
+                <span class="milestone__label">100% · EVENING</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="lifestyle-walkthrough__hint">
+            <span class="hint-text">SCROLL TO EXPLORE</span>
+            <span class="hint-sub">CINEMATIC PROPERTY TOUR · SIX KEY VIEWS</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured-experience" id="featured-residences" aria-label="Selected Residences">
+      <div class="featured-experience__intro reveal">
+        <div>
+          <p class="eyebrow">Selected residences</p>
+          <h2>Only the <em>exceptional.</em></h2>
+        </div>
+        <a class="text-link" href="properties.html">View all residences</a>
+      </div>
+      <div class="featured-walkthrough" data-featured-walkthrough></div>
+    </section>
+
+    <!-- Client Principles / Standards Slider -->
+    <section class="testimonials" aria-label="The Maridan standard">
+      <div class="testimonials__layout">
+        <button class="testimonial__arrow testimonial__arrow--previous" type="button" aria-label="Previous standard">←</button>
+        <div class="testimonial__stage" aria-live="polite"></div>
+        <button class="testimonial__arrow testimonial__arrow--next" type="button" aria-label="Next standard">→</button>
+      </div>
+      <p class="testimonial__progress" aria-label="Standard progress"></p>
+    </section>
+
+    <section class="collection-section">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow">The broader collection</p>
+          <h2>Places with <em>presence.</em></h2>
+        </div>
+        <p class="lead">A curated edit of residences with their own distinct point of view.</p>
+      </div>
+      <div class="property-grid" data-home-collection></div>
+    </section>
+
+    <section class="cta image-cover" style="background-image:url('assets/rooms/garden.jpg')">
+      <div>
+        <p class="eyebrow">Private viewing, by appointment</p>
+        <h2>Begin <em>quietly.</em></h2>
+        <p class="lead">We arrange private viewings and provide complete architectural dossiers on request.</p>
+        <a class="button" href="contact.html">Private enquiry</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer__brand">
+      <a class="brand" href="index.html">MARIDAN<sup>®</sup></a>
+      <p>Private real-estate advisory for exceptional residences.</p>
+      <a class="text-link" href="contact.html">Private consultation</a>
+    </div>
+    <div class="footer__links">
+      <p class="eyebrow">Explore</p>
+      <a href="index.html">Home</a>
+      <a href="properties.html">Properties</a>
+      <a href="about.html">About Maridan</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer__details">
+      <p class="eyebrow">Private advisory</p>
+      <p>United States · International</p>
+      <p>By appointment only</p>
+      <p class="footer__legal">© 2026 Maridan Private Office<br>All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="assets/three.min.js"></script>
+  <script src="assets/three/r128/RGBELoader.js"></script>
+  <script src="assets/three/r128/GLTFLoader.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

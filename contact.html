@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Make a private property enquiry or request a confidential consultation with Maridan Private Office.">
+  <title>Private Enquiry | MARIDAN</title>
+  <link rel="canonical" href="contact.html">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="index.html">MARIDAN<sup>®</sup></a>
+    <button class="menu" type="button" aria-controls="site-navigation" aria-expanded="false">MENU</button>
+    <nav id="site-navigation">
+      <a href="index.html">Home</a>
+      <a href="properties.html">Properties</a>
+      <a href="about.html">About</a>
+      <a class="active" href="contact.html">Private enquiry</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="contact">
+      <div>
+        <p class="eyebrow">Private consultation</p>
+        <h1>Begin<br><em>quietly.</em></h1>
+        <p class="lead">For a private viewing, confidential representation of an exceptional residence, or advisory on prime acquisitions.</p>
+        <div style="margin-top: 3.5rem;">
+          <p class="eyebrow">MARIDAN PRIVATE OFFICE</p>
+          <p style="font-size: 1.15rem; margin: 0.5rem 0;">hello@maridan.co</p>
+          <p style="color: var(--color-muted-dark); font-size: 0.95rem;">By private appointment · United States & International</p>
+        </div>
+      </div>
+      <form data-enquiry-form novalidate>
+        <label for="name">
+          Name
+          <input id="name" name="name" autocomplete="name" required placeholder="Your full name">
+        </label>
+        <label for="email">
+          Email
+          <input id="email" name="email" type="email" autocomplete="email" required placeholder="your.email@domain.com">
+        </label>
+        <label for="phone">
+          Phone
+          <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="+1 (555) 000-0000">
+        </label>
+        <label for="property">
+          Residence of interest
+          <select id="property" name="property">
+            <option value="General enquiry">General enquiry</option>
+          </select>
+        </label>
+        <label for="type">
+          Enquiry type
+          <select id="type" name="type">
+            <option>Private viewing</option>
+            <option>Acquiring a residence</option>
+            <option>Confidential representation</option>
+            <option>Private advisory consultation</option>
+          </select>
+        </label>
+        <label for="message">
+          Your message
+          <textarea id="message" name="message" required placeholder="Please outline your timing, questions, or specific preferences..."></textarea>
+        </label>
+        <button class="button" type="submit">Submit private enquiry</button>
+        <p class="form-status" data-form-status aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer__brand">
+      <a class="brand" href="index.html">MARIDAN<sup>®</sup></a>
+      <p>Private real-estate advisory for exceptional residences.</p>
+      <a class="text-link" href="contact.html">Private consultation</a>
+    </div>
+    <div class="footer__links">
+      <p class="eyebrow">Explore</p>
+      <a href="index.html">Home</a>
+      <a href="properties.html">Properties</a>
+      <a href="about.html">About Maridan</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer__details">
+      <p class="eyebrow">Private advisory</p>
+      <p>United States · International</p>
+      <p>By appointment only</p>
+      <p class="footer__legal">© 2026 Maridan Private Office<br>All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
